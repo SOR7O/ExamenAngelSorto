@@ -63,7 +63,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Name="btnAgregar" Width="100" Height="30" Content="Agregar" Grid.Column="0"/>
+                <Button Name="btnAgregar" Width="100" Height="30" Content="Agregar" Grid.Column="0" Click="BtnAgregar_Click"/>
                 <Button Name="btnEliminar" Content="Eliminar" Width="100" Height="30" Margin="5" Grid.Column="1"/>
                 <Button Name="btnBuscar" Content="Buscar" Width="100" Height="30" Grid.Column="2"/>
 
